@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- 分割线颜色 -->
+    <color name="color_divider_dark">#cccccc</color>
+
+    <!-- 分割线颜色 -->
+    <color name="color_divider_tint">#e5e5e5</color>
+
+</resources>

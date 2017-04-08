@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="height_rich_editor_item">48dp</dimen>
+    <dimen name="padding_rich_editor_item">5dp</dimen>
+    <dimen name="height_title">48dp</dimen>
+    <dimen name="height_line">0.5dp</dimen>
+    <dimen name="height_multi_color_view">180dp</dimen>
+    <dimen name="height_black_color_view">48dp</dimen>
+    <dimen name="height_bottom_button">48dp</dimen>
+</resources>

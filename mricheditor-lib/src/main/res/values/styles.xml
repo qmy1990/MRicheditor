@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="dialog_fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="color_picker_window_animation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pop_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/pop_exit_anim</item>
+    </style>
+
+    <!-- 深色横向分割线 -->
+    <style name="style_line_match_horizontally_dark">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_line</item>
+        <item name="android:background">@color/color_divider_dark</item>
+    </style>
+
+</resources>

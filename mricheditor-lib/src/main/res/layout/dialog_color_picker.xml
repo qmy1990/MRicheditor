@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <com.qmy.mricheditor.view.ColorPanelView
+        android:id="@+id/colorPanelView_multi_color"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_multi_color_view" />
+
+    <com.qmy.mricheditor.view.ColorPanelView
+        android:id="@+id/colorPanelView_black"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_black_color_view" />
+
+    <Button
+        android:id="@+id/button_sure"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_bottom_button"
+        android:text="@android:string/ok"/>
+</LinearLayout>
